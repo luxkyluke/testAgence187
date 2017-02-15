@@ -47,12 +47,7 @@ function animMarker(){
 	var x = Math.floor((Math.random() * maxX) + minX);
 	var y = Math.floor((Math.random() * maxY) + minY);
 
-
 	location.setAttribute("style", "transform: translate("+-x+"px, "+y+"px);");
-	console.log("translate("+-x+"px, "+y+"px)");
-	console.log("results : "+resultsWidth +" "+resultsHeight);
-	console.log("location : "+locationWidth +" "+locationHeight);
-
 }
 
 function getCity(zipcode, callback){
