@@ -1,7 +1,7 @@
 .wrapper {
   width: 60%;
-  height: 50%;
-  margin: 5% auto 0 auto; 
+  margin: 5% auto 0 auto;
+  height: 50%; 
 }
 
 .font {
@@ -33,11 +33,11 @@
 .font:hover{
   color: #fff;
 }
-.form {
-  text-align: center; 
+.form { 
   -webkit-animation: bounce 1.5s infinite;
   -moz-animation: bounce 1.5s infinite;
-  animation: bounce 1.5s infinite;
+  animation: bounce 1.5s infinite; 
+  text-align: center;
 }
 
 .field-in {
@@ -72,20 +72,20 @@
 }
 
 /*******PLACEHOLDER***************/
-::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+::-webkit-input-placeholder { 
     color:    #fff;
 }
 
-:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+:-moz-placeholder { 
    color:    #fff;
    opacity:  1;
 }
-::-moz-placeholder { /* Mozilla Firefox 19+ */
+::-moz-placeholder { 
    color:    #fff;
    opacity:  1;
 }
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    #fff;
+:-ms-input-placeholder {
+   color:   #fff;
 }
 
 
@@ -109,22 +109,21 @@
   }
 }
 
-@media (max-width: 750px) {
-  .wrapper{
-    width: 80%;
-  }
-
-  .field-in{
-    width: 80%;
-  }
-}
-
-@media (max-width: 550px) {
+@media (max-width: 790px)  {
   .wrapper{
     width: 100%;
   }
 
   .field-in{
     width: 90%;
+    line-height: 2em;
+    font-size: 2em;
   }
+  
+  .submit{
+    font-size: 2em;
+    height: 75px;
+    width: 150px;
+  }
+  
 }
