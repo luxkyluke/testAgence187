@@ -1,4 +1,4 @@
-const query = "http://maps.googleapis.com/maps/api/geocode/json?address="
+const query = "https://maps.googleapis.com/maps/api/geocode/json?address="
 const regexZipcode = new RegExp("[0-9]");
 
 
