@@ -1,0 +1,130 @@
+.wrapper {
+  width: 60%;
+  height: 50%;
+  margin: 5% auto 0 auto; 
+}
+
+.font {
+  font-size: 16px;
+  font-family: Montserrat_Regular;
+  letter-spacing: 2px;
+  color: #fff;
+  background-color: #000;
+}
+
+.form .field-in{
+  border: 3px solid #000;
+  color: #fff;
+}
+
+.form .field-in.error {
+  color: red;
+}
+
+.form .field-in:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.form .field-in:hover.error {
+  color: red;
+}
+
+.font:hover{
+  color: #fff;
+}
+.form {
+  text-align: center; 
+  -webkit-animation: bounce 1.5s infinite;
+  -moz-animation: bounce 1.5s infinite;
+  animation: bounce 1.5s infinite;
+}
+
+.field-in {
+  display: block;
+  padding: 10px;
+  border: none;
+  width: 60%;
+  -webkit-transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  transition: all 0.2s ease 0s;
+  margin: 10px auto;
+}
+.name:focus, .email:focus, .message:focus{
+  outline: none;
+  padding:15px;
+}
+
+.submit {
+    background-color: #000;
+    height: 50px;
+    padding: 0px 20px;
+    border: 3px solid #000;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+/*******PLACEHOLDER***************/
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+
+
+@media (max-width: 1200px) {
+  .wrapper{
+    width: 50%;
+  }
+
+  .field-in{
+    width: 80%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .wrapper{
+    width: 65%;
+  }
+
+  .field-in{
+    width: 80%;
+  }
+}
+
+@media (max-width: 750px) {
+  .wrapper{
+    width: 80%;
+  }
+
+  .field-in{
+    width: 80%;
+  }
+}
+
+@media (max-width: 550px) {
+  .wrapper{
+    width: 100%;
+  }
+
+  .field-in{
+    width: 90%;
+  }
+}

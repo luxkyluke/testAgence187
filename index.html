@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Postcode</title>
+	<link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+	<div class="page">
+		<div class="center">
+			<div class="wrapper">
+				<form class="form" name="zipcode_form" action="" onsubmit="return checkZipcode(this, event)" method="post">
+					<input type="text" id="zipcode_txt"name="zipcode" class="postcode field-in font" placeholder="Enter your zipcode" maxlength="5" onkeypress="handleKeyPressed(event)" autofocus="true" autocomplete="off">
+					<button class="submit font" href="">SEND</button>
+				</form>
+			</div>
+		</div>
+		<div id="results">
+			
+		</div>
+	</div>
+	<script src="script/utility.js"></script>
+	<script src="script/main.js"></script>
+</body>
+</html>
